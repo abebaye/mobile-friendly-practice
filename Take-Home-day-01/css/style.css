@@ -1,16 +1,25 @@
 body {
-  margin: 0;
+  
   font-family: Arial, Helvetica, sans-serif;
+  margin-left: 20%;
+  margin-right: 20%;
+   /* background: linear-gradient(to left, rgb(37, 35, 35) 20%,white 80%, hsl(0, 4%, 15%) 20%) ; */
+  
+/* background-size: 100% 200%; */    
 }
+
 
 h1 {
   position: absolute;
   color: rgb(224, 222, 222);
-  margin-top: 100px;
-  justify-content: center;
-  /* text-align: center; */
-  display: flex;
-  width: 100%;
+  margin-top: 60px;
+  /* justify-content: center;  */
+  text-align: center;
+  /* display: flex; */
+  /* width: 100%; */
+  margin-left:25% ;
+  margin-right: 20%;
+  /* position: relative; */
 }
 h3 {
   color: rgb(35, 196, 196);
@@ -22,6 +31,7 @@ h3 {
 
 .par1 {
   font-size: 11px;
+  
 }
 .par2 {
   font-size: 11px;
@@ -41,7 +51,7 @@ h3 {
 }
 .footer {
   font-size: 8px;
-  background-color: rgb(39, 39, 49);
+  background-color: rgb(12, 65, 65);
   padding: 4%;
   color: rgb(199, 198, 196);
   text-align: center;
